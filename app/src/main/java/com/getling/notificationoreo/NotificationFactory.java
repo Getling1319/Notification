@@ -23,8 +23,10 @@ public class NotificationFactory {
         return new Notification.Builder(context, channelId)
                 .setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.mipmap.ic_launcher))
                 .setSmallIcon(R.mipmap.ic_launcher)
-                .setContentTitle("消息的标题")
+                .setContentTitle("消息的标题" + channelId)
                 .setContentText("内容内容内容")
+                .setNumber(10)
+                .setAutoCancel(true)
                 .build();
     }
 }

@@ -12,4 +12,5 @@ public class Constants {
 
     public static final String CHANNEL_ID_1 = "channel_id_1";
     public static final String CHANNEL_ID_2 = "channel_id_2";
+    public static final String CHANNEL_ID_3 = "channel_id_3";
 }
